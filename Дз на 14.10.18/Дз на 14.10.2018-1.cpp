@@ -1,3 +1,7 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+
 unsigned int n, sn; 
 cin » n; 
 sn = sqrt(N); 
