@@ -33,12 +33,12 @@ float a, b, c;
 cin >> a;
 cin >> b ;
 cin >> c; 
-cout << "Максимальное число : " << max(a, b, c) << "\n"; 
-cout << "Минимальное число" << min(a, b, c) << "\n"; 
-cout << "Среднее медианное :" << med(a,b,c) << "\n"; 
-cout << "Среднее арифмитическое: " << avg(a, b, c) << "\n"; 
-cout <<"Изначальная запись: " << a <<b << c << "\n"; 
+cout << "MAX : " << max(a, b, c) << "\n"; 
+cout << "MIN" << min(a, b, c) << "\n"; 
+cout << "MED:" << med(a,b,c) << "\n"; 
+cout << "AVG: " << avg(a, b, c) << "\n"; 
+cout <<"original recording: " << a <<b << c << "\n"; 
 swap (a, b, c); 
-cout « "Изменения : " «a « b «c« "\n"; 
+cout « "swap : " «a « b «c« "\n"; 
 return 0; 
 }
