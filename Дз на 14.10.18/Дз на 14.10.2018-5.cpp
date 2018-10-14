@@ -1,7 +1,7 @@
 #include <iostream> 
 #include <numeric> 
 
-using namespace std; 
+using namespace std;
 
 void swap(float& a, float& b, float& c) 
 { 

@@ -34,7 +34,7 @@ int main() {
     sort(array, arraySize);
     for (int i = 0; i < arraySize; i++)
     {
-        cout << *(array + i) << " ";
+        cout << *(array + i);
     };
     return 0;
 }
