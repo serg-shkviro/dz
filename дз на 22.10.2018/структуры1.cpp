@@ -100,7 +100,7 @@ ostream& operator<< (ostream& stream, rational& rat)
 
 
 int main() {
-	rational* x = new rational(0, 1);
+	rational* x = new rational(0, 1); //все переменные должны быть объ€влены
 	rational* y = new rational(0, 1);
 
 	cin >> *x;
