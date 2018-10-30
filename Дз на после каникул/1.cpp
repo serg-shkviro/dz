@@ -7,17 +7,16 @@ int main()
 {
 	int sum;
 	sum = 0;
-	int c;
 	int a;
 	cin >> a;
 	while (a >= 1) {
-		c = a % 10;
+		int c = a % 10;
 		if (c % 2 != 0) {
 			sum += c;
 		};
 		a = a / 10;
 
 	}
-	cout << sum;
+	cout << " Sum of all odd digits : " << sum;
 	return 0;
 }
