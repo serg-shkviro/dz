@@ -13,9 +13,9 @@ int main()
 	while (a >= 1) {
 		c = a % 10;
 		if (c % 2 != 0) {
-			sum = sum + c;
+			sum += c;
 		};
-		a = (a - c) / 10;
+		a = a / 10;
 
 	}
 	cout << sum;
