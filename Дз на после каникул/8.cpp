@@ -4,8 +4,8 @@ using namespace std;
 
 double sq(double n) {
 	
-	for (double i = 0; 0==0; i += 0.001) {
-		if (i*i <= n && (i + 0.001)*(i + 0.001) >= n) {
+	for (double i = 0; 0==0; i += 0.00001) {
+		if (i*i <= n && (i + 0.00001)*(i + 0.00001) >= n) {
 			return i;
 			break;
 
@@ -16,9 +16,9 @@ double sq(double n) {
 double se(double n)
 {
 
-	for (double i = 0; 0 == 0; i += 0.001)
+	for (double i = 0; 0 == 0; i += 0.00001)
 	{
-		if ((i * i * i <= n) && ((i + 0.001) * (i + 0.001) * (i + 0.001) >= n)) {
+		if ((i * i * i <= n) && ((i + 0.00001) * (i + 0.00001) * (i + 0.00001) >= n)) {
 			return i;
 			break;
 		};
