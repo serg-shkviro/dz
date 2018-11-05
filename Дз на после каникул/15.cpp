@@ -44,8 +44,8 @@ int main() {
 	int n;
 	scanf("%d", &n);
 	int** okolo_otvet = new int*[n];
-	for (int otchayanie = 0; otchayanie < n; otchayanie++) {
-		*(okolo_otvet + otchayanie) = new int[n];
+	for (int j= 0; j < n; j++) {
+		*(okolo_otvet + j) = new int[n];
 	};
 
 	diagonal(okolo_otvet, n);
