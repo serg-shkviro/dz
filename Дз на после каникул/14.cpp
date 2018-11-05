@@ -3,7 +3,7 @@
 using namespace std;
 
 
-int pra(char* a, int b) {
+int pra(char *a, int b) {
 	int k = 0;
 	int j;
 	for (int i = 0; i < b; i++) {
@@ -17,7 +17,7 @@ int pra(char* a, int b) {
 
 
 
-int d(char* x) {
+int d(char *x) {
 	int y = 0;
 	while (*x++) {
 		y += 1;
@@ -46,7 +46,7 @@ void ancompress(char* &c, int d) {
 
 int main() {
 	int n;
-	char* transformation = new char[256];
+	char *transformation = new char[256];
 	cin.getline(transformation, 256, '\n');
 	n = d(transformation);
 
