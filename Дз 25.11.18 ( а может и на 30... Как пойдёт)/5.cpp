@@ -19,8 +19,7 @@ void mul(int* a, int b, int c) {
 	};
 }
 
-int main()
-{
+int main() {
 	int n, k;
 	cin >> n;
 	int* serf = new int[n];
