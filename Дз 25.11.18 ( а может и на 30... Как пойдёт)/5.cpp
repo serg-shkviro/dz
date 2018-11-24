@@ -1,7 +1,7 @@
 #include "pch.h"
 #include <iostream> 
 using namespace std;
-
+// I think it's overkill most effective because I can't think of another way. We select each digit under the condition.
 void mul(int* a, int b, int c) {
 	for (int i = 0; i < b; i++) {
 		int copy = a[i];
