@@ -76,7 +76,7 @@ int main()
 	q = adjacentyMatrix.size();
 	cout << "   ";
 	for (size_t i = 0; i < q; i++)
-		cout << i << " ";
+	cout << i << " ";
 	for (size_t i = 0; i < q; i++)
 	{
 		cout << "\n" << i << ": ";
